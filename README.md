@@ -149,3 +149,20 @@
  1405  git commit -m "Feat: Add My Achievements of this year"
  1406  git push
 ```
+
+## Bundle 4
+
+### Exercise 1
+  
+>Git Exercise 1 Terminal History
+```zsh
+ 1430  git checkout main
+ 1431  clear
+ 1432  git log
+ 1433  git remote add git-copy https://github.com/albert-byiringiro/git-exercise-clone.git
+ 1434  git remote
+ 1435  git add home.html
+ 1436  git commit -m "Feat: Add Ebenezer Motto"
+ 1437  git push
+ 1438  git push git-copy
+```
