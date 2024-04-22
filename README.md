@@ -55,7 +55,7 @@
 
 ### Exercise 1
   
->Git Exercise Three Terminal History
+>Git Exercise 3 Terminal History
 ```zsh
  1183  git checkout -b ft/bundle-2
  1184  git push origin ft/bundle-2
@@ -65,4 +65,28 @@
  1188  git push origin ft/bundle-2
  1189  clear
  1190  git push --set-upstream origin ft/bundle-2
+```
+
+### Exercise 2
+  
+>Git Exercise 4 Terminal History
+```zsh
+ 1202  git status
+ 1203  git add -A
+ 1204  git commit -m "Add ML models as a service"
+ 1205  git push
+ 1206  git checkout main
+ 1207  git add -A
+ 1208  git commit -m "Add Machine Learning Models as our service"
+ 1209  git push
+ 1210  git checkout ft/service-redesign
+ 1211  ls
+ 1212  git diff
+ 1213  git merge main
+ 1214  git diff
+ 1215  git merge main
+ 1216  git add services.html
+ 1217  git status
+ 1218  git commit
+ 1219  git push
 ```
