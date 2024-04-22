@@ -190,3 +190,14 @@
  1462  clear
  1463  git push origin ft/squashing
 ```
+
+## Bundle 5
+
+### Exercise 1
+  
+>Git Exercise 1 Terminal History
+```zsh
+- On your github repo enable github pages
+- Check if the link is publicly visible to anyone
+```
+
