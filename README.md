@@ -1,5 +1,7 @@
 # Git
 
+## Bundle 1
+
 ### Exercise 1
   
 >Git Exercise One Terminal History
@@ -47,4 +49,20 @@
  1159  git add -A
  1160  git status
  1161  git reset --hard 
+```
+
+## Bundle 2
+
+### Exercise 1
+  
+>Git Exercise Three Terminal History
+```zsh
+ 1183  git checkout -b ft/bundle-2
+ 1184  git push origin ft/bundle-2
+ 1185  git add -A
+ 1186  git commit -m "Add services Page"
+ 1187  git status
+ 1188  git push origin ft/bundle-2
+ 1189  clear
+ 1190  git push --set-upstream origin ft/bundle-2
 ```
