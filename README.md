@@ -131,10 +131,7 @@
 ### Exercise 2
   
 >Git Exercise 2 Terminal History
-```zsh
-### Exercise 2
-  
->Git Exercise 2 Terminal History
+
 ```zsh
  1392  git checkout -b ft/home-page-redesign
  1393  git checkout main
@@ -152,7 +149,3 @@
  1405  git commit -m "Feat: Add My Achievements of this year"
  1406  git push
 ```
-
-
-```
-
