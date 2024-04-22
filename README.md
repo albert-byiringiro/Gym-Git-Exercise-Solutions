@@ -128,3 +128,45 @@
  1385  git push
 ```
 
+### Exercise 2
+  
+>Git Exercise 2 Terminal History
+```zsh
+### Exercise 1
+  
+>Git Exercise 1 Terminal History
+```zsh
+ 1357  git checkout -b ft/team-page
+ 1358* clear
+ 1359* git status
+ 1360* git add team.html
+ 1361* git commit -m "Feat: Add Team Page"
+ 1362* git push
+ 1363* git checkout main
+ 1364* git checkout -b ft/contact-page
+ 1365* git checkout ft/team-page
+ 1366* git log
+ 1367* git checkout ft/contact-page
+ 1368* git cherry-pick c02b488a19dc6edd8d5b871b6db4552e4718da5f
+ 1369* ls
+ 1370* git status
+ 1371* git add contact.html
+ 1372* git commit -m "Feat: Add Contact Page"
+ 1373* git push
+ 1374* git status
+ 1375* git checkout -b ft/faq-page
+ 1376* clear
+ 1377  git checkout ft/contact-page
+ 1378  git checkout ft/faq-page
+ 1379  git add faq.html
+ 1380  git commit -m "Feat: Add FAQ Page"
+ 1381  git push
+ 1382  git log
+ 1383  git revert 0491180ac567d34745069e62e0938078ef0aade3
+ 1384  git status
+ 1385  git push
+```
+
+
+```
+
