@@ -166,3 +166,27 @@
  1437  git push
  1438  git push git-copy
 ```
+
+### Exercise 2
+  
+>Git Exercise 2 Terminal History
+```zsh
+ 1446  git checkout -b ft/footer
+ 1447  git add footer.html
+ 1448  git commit -m "Feat: Add footer file"
+ 1449  git status
+ 1450  git add footer.html
+ 1451  git commit -m "Feat: Add footer content"
+ 1452  git status
+ 1453  git push
+ 1454  git push --set-upstream origin ft/footer
+ 1455  git checkout main
+ 1456  git checkout -b ft/squashing
+ 1457  git merge --squash ft/footer
+ 1458  git log
+ 1459  git status
+ 1460  git commit -m "footer changes squashing"
+ 1461  git log
+ 1462  clear
+ 1463  git push origin ft/squashing
+```
