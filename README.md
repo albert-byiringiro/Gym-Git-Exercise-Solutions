@@ -201,3 +201,11 @@
 - Check if the link is publicly visible to anyone
 ```
 
+### Exercise 2
+  
+>Git Exercise 2 Terminal History
+```zsh
+ 1494  git add index.html
+ 1495  git commit -m "feat: rename the title"
+ 1496  git push
+```
