@@ -224,3 +224,14 @@
  1785  git push --set-upstream origin ft/menu
 ```
 
+### Exercise 2
+  
+>Git Exercise 2 Terminal History
+```zsh
+ 1821  git checkout -b fx/contact
+ 1822  git add -A
+ 1823  git commit -m "Fix: Change file from index-4 to contact"
+ 1824  git push
+ 1825  git push --set-upstream origin fx/contact
+
+```
