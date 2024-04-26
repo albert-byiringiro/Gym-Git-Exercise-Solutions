@@ -209,3 +209,18 @@
  1495  git commit -m "feat: rename the title"
  1496  git push
 ```
+
+## Bundle 6
+
+### Exercise 1
+  
+>Git Exercise 1 Terminal History
+```zsh
+ 1780  git checkout -b ft/menu
+ 1781  git status
+ 1782  git add -A
+ 1783  git commit -m "Feat: Menu page for our restaurant"
+ 1784  git push
+ 1785  git push --set-upstream origin ft/menu
+```
+
