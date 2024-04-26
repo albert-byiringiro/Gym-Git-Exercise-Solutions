@@ -235,3 +235,13 @@
  1825  git push --set-upstream origin fx/contact
 
 ```
+
+### Exercise 3
+  
+>Git Exercise 3 Terminal History
+```zsh
+ 1832  git add -A
+ 1833  git commit -m "Fix: Change telephone number"
+ 1834  git push
+
+```
