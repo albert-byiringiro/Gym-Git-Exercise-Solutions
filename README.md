@@ -346,3 +346,23 @@ git rebase -i HEAD~2
 git log
 
 ```
+
+### Exercise 7: Reordering Commits
+
+
+```zsh
+# Check the current commit history
+git log --oneline
+
+# Start interactive rebase for the last three commits / git for all commits on the repo: git rebase -i --root
+git rebase -i HEAD~3 
+
+# In the editor, change the order of the commits, then save and close
+
+# If there are conflicts, resolve them and continue the rebase
+git rebase --continue
+
+# Verify the commit history
+git log --oneline
+
+```
