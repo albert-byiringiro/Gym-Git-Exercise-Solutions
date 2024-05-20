@@ -245,3 +245,19 @@
  1834  git push
 
 ```
+
+# Git advanced Exercises
+
+## Refining Git History
+
+### Exercise 1: Missing File Fix
+2914  touch test{1..4}.md
+2915  git add test1.md && git commit -m "chore: Create initial file"\n
+2916  git add test2.md && git commit -m "chore: Create another file"\n
+2917  git add test3.md && git commit -m "chore: Create third and fourth files"\n
+2918  git status
+2918  git status
+2919  git log
+2920* git commit --amend
+
+
