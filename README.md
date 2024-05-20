@@ -314,3 +314,18 @@ git commit -m "chore: Create fourth file"
 # Verify the commit history
 git log
 ```
+
+### Exercise 5: Advanced Squashing:
+
+```zsh
+# Start interactive rebase for the last two commits
+git rebase -i HEAD~2
+
+# Editor will open; change 'pick' to 'squash' for the second commit, then save and close
+
+# Edit the commit message to combine them meaningfully, then save and close
+
+# Verify the commit history
+git log
+
+```
