@@ -257,9 +257,11 @@
 2916  git add test2.md && git commit -m "chore: Create another file"\n
 2917  git add test3.md && git commit -m "chore: Create third and fourth files"\n
 2918  git status
-2918  git status
+2918  git add test4.md
 2919  git log
 2920* git commit --amend -m "chore: Create third and fourth files"
+2921 git status
+2922 git log
 ```
 
 ### Exercise 2: Editing Commit History
