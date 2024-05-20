@@ -329,3 +329,20 @@ git rebase -i HEAD~2
 git log
 
 ```
+
+### Exercise 6: Dropping a Commit:
+
+
+```zsh
+# Verify the commit history
+git log
+
+# Start interactive rebase for the last two commits
+git rebase -i HEAD~2
+
+# In the editor, change 'pick' to 'drop' for the unwanted commit, then save and close
+
+# Verify the commit history
+git log
+
+```
