@@ -259,14 +259,24 @@
 2918  git status
 2918  git status
 2919  git log
-2920* git commit --amend
+2920* git commit --amend -m "chore: Create third and fourth files"
 ```
 
 ### Exercise 2: Editing Commit History
 
 ```zsh
- 2970  git rebase -i HEAD~2
- 2971  git commit --amend
- 2972  git rebase --continue
- 2973  git log
+# Start interactive rebase for the last two commits
+git rebase -i HEAD~2
+
+# Editor will open, change 'pick' to 'edit' for the commit to be modified, then save and close
+
+# Amend the commit message
+git commit --amend -m "chore: Create second file"
+
+# Continue the rebase
+git rebase --continue
+
+# Verify the commit history
+git log
+
 ```
