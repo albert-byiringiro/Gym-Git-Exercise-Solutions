@@ -270,7 +270,7 @@
 # Start interactive rebase for the last two commits
 git rebase -i HEAD~2
 
-# Editor will open, change 'pick' to 'edit' for the commit to be modified, then save and close
+# Editor will open, change 'pick' to 'reword' for the commit to be modified, then save and close
 
 # Amend the commit message
 git commit --amend -m "chore: Create second file"
@@ -281,4 +281,18 @@ git rebase --continue
 # Verify the commit history
 git log
 
+```
+
+### Exercise 3: Keeping History Tidy - Squashing Commits:
+
+```zsh
+# Start interactive rebase for the last two commits
+git rebase -i --root
+
+# Editor will open; change 'pick' to 'squash' for the second commit, then save and close
+
+# Edit the commit message to combine them meaningfully, then save and close
+
+# Verify the commit history
+git log
 ```
