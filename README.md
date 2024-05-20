@@ -366,3 +366,32 @@ git rebase --continue
 git log --oneline
 
 ```
+
+### Exercise 8: Cherry-Picking Commits:
+
+
+```zsh
+# Create and switch to a new branch
+git checkout -b ft/branch
+
+# Create the file with some content
+echo "This is test file 5." > test5.md
+
+# Stage and commit the new file
+git add test5.md
+git commit -m "Implemented test 5"
+
+# Switch back to the main branch
+git checkout main
+
+# Get the commit hash from the ft/branch
+git log ft/branch --oneline
+
+# Cherry-pick the commit into the main branch
+git cherry-pick 6662094
+
+# Verify the commit history and the presence of the file
+git log --oneline
+
+
+```
