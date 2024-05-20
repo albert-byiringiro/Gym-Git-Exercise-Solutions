@@ -251,6 +251,7 @@
 ## Refining Git History
 
 ### Exercise 1: Missing File Fix
+```zsh
 2914  touch test{1..4}.md
 2915  git add test1.md && git commit -m "chore: Create initial file"\n
 2916  git add test2.md && git commit -m "chore: Create another file"\n
@@ -259,5 +260,13 @@
 2918  git status
 2919  git log
 2920* git commit --amend
+```
 
+### Exercise 2: Editing Commit History
 
+```zsh
+ 2970  git rebase -i HEAD~2
+ 2971  git commit --amend
+ 2972  git rebase --continue
+ 2973  git log
+```
