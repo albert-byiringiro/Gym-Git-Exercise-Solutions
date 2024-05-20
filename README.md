@@ -296,3 +296,21 @@ git rebase -i --root
 # Verify the commit history
 git log
 ```
+
+### Exercise 4: Splitting a Commit
+
+```zsh
+# Reset the last commit, keeping changes in the working directory
+git reset HEAD~1
+
+# Stage and commit test3.md
+git add test3.md
+git commit -m "chore: Create third file"
+
+# Stage and commit test4.md
+git add test4.md
+git commit -m "chore: Create fourth file"
+
+# Verify the commit history
+git log
+```
